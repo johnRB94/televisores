@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda de Televisores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: white;
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+        .product p {
+            color: #777;
+            font-size: 14px;
+        }
+        .price {
+            font-size: 22px;
+            color: #E74C3C;
+            margin-top: 10px;
+        }
+        .btn {
+            background-color: #E74C3C;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #C0392B;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .contact-info a {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            background-color: #2980b9;
+        }
+        .video-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .video-container iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
+        }
+        .complaints-section {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        .complaints-section h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .complaints-section p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Venta de Televisores</h1>
+        <p>Los mejores televisores a precios increíbles</p>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Modelos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=TV+55+Pulgadas" alt="Televisor 55 Pulgadas">
+            <h3>Televisor 55" 4K UHD</h3>
+            <p>Disfruta de una imagen nítida y colores vibrantes con este televisor 4K de 55 pulgadas.</p>
+            <div class="price">S/ 2,500.00</div>
+            <a href="https://wa.me/901656101" class="btn">Comprar</a>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=TV+43+Pulgadas" alt="Televisor 43 Pulgadas">
+            <h3>Televisor 43" LED Full HD</h3>
+            <p>El mejor tamaño para tu hogar, con una excelente calidad de imagen.</p>
+            <div class="price">S/ 1,800.00</div>
+            <a href="https://wa.me/901656101" class="btn">Comprar</a>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=TV+32+Pulgadas" alt="Televisor 32 Pulgadas">
+            <h3>Televisor 32" LED</h3>
+            <p>Televisor ideal para espacios pequeños, con gran calidad de imagen.</p>
+            <div class="price">S/ 999.00</div>
+            <a href="https://wa.me/901656101" class="btn">Comprar</a>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/400x300?text=TV+65+Pulgadas" alt="Televisor 65 Pulgadas">
+            <h3>Televisor 65" 4K UHD</h3>
+            <p>Imágenes nítidas y un tamaño impresionante para una experiencia de cine en casa.</p>
+            <div class="price">S/ 3,500.00</div>
+            <a href="https://wa.me/901656101" class="btn">Comprar</a>
+        </div>
+    </div>
+
+    <div class="contact-info">
+        <a href="tel:+51901656101">Contáctanos: 901656101</a>
+        <a href="https://maps.app.goo.gl/Fz1QDaskrBKBhYoTA" target="_blank">Ubícanos</a>
+    </div>
+
+    <div class="video-container">
+        <h2>¿Por qué elegir nuestros televisores?</h2>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video sobre nuestros televisores"></iframe>
+    </div>
+
+    <div class="complaints-section">
+        <h2>Libro de Reclamaciones</h2>
+        <p>De acuerdo a la normativa peruana, ponemos a disposición de nuestros clientes el libro de reclamaciones para que puedan registrar cualquier queja o sugerencia.</p>
+        <p><a href="https://www.gob.pe/registro-de-reclamaciones" target="_blank">Accede al libro de reclamaciones aquí</a></p>
+    </div>
+
+</body>
+</html>
